@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ostream>
+#include <sstream>
 
 #include "Foo.hpp"
 
@@ -14,4 +15,12 @@ Foo::Foo(int foo) :
 Foo::~Foo()
 {
     std::clog << "Foo::~Foo() called" << std::endl;
+}
+
+std::string Foo::toString() const
+{
+    // Use existing serialization of operator<<
+    std::stringstream sstream;
+    sstream << *this;
+    return sstream.str();
 }
