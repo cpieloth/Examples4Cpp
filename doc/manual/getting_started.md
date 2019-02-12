@@ -22,3 +22,4 @@
     $ cd Examples4Cpp/build
     $ src/examples4cpp/abstractClass/mainAbc
     $ src/examples4cpp/interface/mainInterface
+    $ src/examples4cpp/toString/mainToString
