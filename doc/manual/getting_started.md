@@ -20,5 +20,5 @@
 ## Run Example
 
     $ cd Examples4Cpp/build
-    $ cd src/examples4cpp/abstractClass
-    $ ./main
+    $ src/examples4cpp/abstractClass/mainAbc
+    $ src/examples4cpp/interface/mainInterface
