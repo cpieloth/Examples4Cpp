@@ -5,4 +5,4 @@ list(APPEND sources
     "main.cpp"
 )
 
-add_executable(main ${sources})
+add_executable(mainAbc ${sources})

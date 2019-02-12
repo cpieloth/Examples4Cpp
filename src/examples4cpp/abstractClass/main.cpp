@@ -1,10 +1,7 @@
-/**
- * TODO
- */
-
 #include <cstdlib>
 #include <iostream>
 
+#include "AbstractQuad.hpp"
 #include "Rectangle.hpp"
 #include "Square.hpp"
 
