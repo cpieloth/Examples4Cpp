@@ -20,4 +20,5 @@
 ## Run Example
 
     $ cd Examples4Cpp/build
-    $ TODO
+    $ cd src/examples4cpp/abstractClass
+    $ ./main
